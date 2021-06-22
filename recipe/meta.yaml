@@ -1,5 +1,5 @@
 {% set name = "sym" %}
-{% set version = "0.3.4" %}
+{% set version = "0.3.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sym-{{ version }}.tar.gz
-  sha256: 80358157e65ef7d34b93fe8df58db785e5b817c1d0a0e15a2578d2694c09d630
+  sha256: 854ddd18f0a1f94c9590012e50a139b499b407c90e9ebd407c40285627784ab8
 
 build:
   number: 0
