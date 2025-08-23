@@ -22,6 +22,7 @@ requirements:
   run:
     - numpy
     - python >={{ python_min }}
+    - sympy
 
 test:
   imports:
